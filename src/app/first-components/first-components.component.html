@@ -1,0 +1,7 @@
+<h2>{{ country.name | uppercase }} Details</h2>
+<div><span>id:- </span> {{ country.id }}</div>
+<div><span>name:- </span> {{ country.name }}</div>
+<div>
+    <label>Enter Country Name:-</label>
+    <input type="text" name="country" [(ngModel)] = "country.name" placeholder="Enter Country Name">
+</div>
